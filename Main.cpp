@@ -28,7 +28,6 @@ int main()
 		string yesNo;
 		cin >> yesNo;
 
-	
 		transform(yesNo.begin(), yesNo.end(), yesNo.begin(), toupper);
 
 		// If satisfied, do-while loop ends by assigning "done" to true.
